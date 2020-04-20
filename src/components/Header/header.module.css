@@ -1,0 +1,26 @@
+.header{
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid maroon;
+    padding: 1rem;
+}
+.logo{
+    width: 10vw;
+}
+.link{
+    text-decoration: none;
+    font-weight: 700;
+    color: maroon;
+    cursor: pointer;
+}
+.active{
+    color: darkgreen;
+}
+.menu{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    list-style: none;
+}

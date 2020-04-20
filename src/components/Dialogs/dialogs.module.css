@@ -1,0 +1,75 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.users{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: maroon;
+}
+.active{
+    color: darkgreen;
+}
+.account{
+    width: 30vw;
+    grid-area: account;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+.img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin: 1rem 0
+}
+.btn{
+    cursor: pointer;
+    width: 10vw;
+    height: 5rem;
+    margin: 2rem 0;
+    background-color: lightgray;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 5rem;
+    color: maroon;
+    border: none;
+    border-bottom: 1px solid maroon;
+    border-left: 1px solid maroon;
+}
+.btn:hover{
+    background-color: tan;
+    color: darkgreen;
+}
+
+.messageArea{
+    width: 20vw;
+    height: 10rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid maroon;
+    background-color: lightgray;
+    color: darkgreen;
+    font-size: 2rem;
+    padding: 0 1vw;
+    border-left: 1px solid maroon;
+}
+.message:hover{
+    background-color: tan;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+

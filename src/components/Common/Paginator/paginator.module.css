@@ -1,0 +1,38 @@
+.selectedPage{
+    font-weight: bold;
+}
+.selectPage{
+    cursor: pointer;
+    margin: 0 5px;
+}
+.pagesBlock{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pageNumber{
+    padding: 1rem;
+    border: 1px solid maroon;
+    cursor: pointer
+}
+.pageNumber.selectedPage{
+    font-weight: 700;
+    background-color: tan;
+    color: darkgreen;
+}
+.btn{
+    cursor: pointer;
+    width: 10vw;
+    margin: 0 1rem;
+    background-color: lightgray;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 5rem;
+    color: maroon;
+    border: none;
+    border-bottom: 1px solid maroon;
+    border-left: 1px solid maroon;
+}
+.btn:hover{
+    background-color: tan;
+    color: darkgreen;
+}

@@ -1,0 +1,32 @@
+.table{
+    margin-bottom: 1rem;
+}
+.rowImg{
+    width: 30%;
+}
+.fullname{
+    color: darkgreen;
+    font-weight: 700;
+}
+.date{
+    font-size: 1.5rem;
+}
+.message{
+    color: darkgreen;
+    font-style: italic;
+}
+.img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.post{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.like{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+}

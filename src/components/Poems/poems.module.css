@@ -1,0 +1,30 @@
+.poemPage{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.poemBlock{
+    height: 80vh;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    overflow: auto;
+}
+.titleLink{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
+    color: maroon;
+    cursor: pointer;
+    font-weight: 700;
+}
+.titleLink.active{
+    color: darkgreen;
+}
+.title{
+    color: darkgreen;
+    font-weight: 700;
+}
+.navbar{
+    overflow-y: auto;
+    padding: 1rem;
+}
